@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  body{background-color: hsl(0, 100%, 74%) ;
+    display: flex;
+    width:100vw;
+    min-height: 100vh;
+    align-items:right;
+    justify-content: center;
+    width:100vw;
+    font-size: 16px;
+}
+
+
+main{
+    width: 80%;
+    margin: 0 auto;
+
+ }
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.s1{
+    width: 42%;
+    color: white;
+}
+.s2{
+    width:60%;
+    text-align: center;
+    padding:10px ;
+}
+
+.heading{font-size: 25px;
+      font-weight: 700;
+      margin: 20px 0px;
+
+}
+.heading h1{ font-size: 50px;
+             font-weight: bolder;
+             line-height: 3rem;
+}
+ text{
+    font-weight: 400;
+    line-height: 25px;
+ }
+ .form-banner{background-color: hsl(248, 32%, 49%);
+            border-radius: 5px;
+            padding: 15px; 
+            margin: 10px auto;
+            width: 75%;
+            box-shadow: 0px 5px 3px gray;
+            color: white;
+
+ }
+.form-banner span{
+    color: hsl(246, 25%, 77%);
+}
+ form{ padding: 20px 20px;
+       width: 75%;
+       margin: 30px auto;
+       background-color: white;
+       border-radius: 5px;
+       box-shadow: 0px 5px 3px gray;
+ }
+    
+
+ .A{
+    margin: 15px 20px;
+
+ }
+ 
+ .A input{padding: 15px 20px;
+          width: 100%;
+          border-radius: 5px;
+          border: 1px solid hsl(246, 25%, 77%);
+ }
+
+input[type=submit]{
+    color: white;
+    font-weight: 600;
+    background-color: hsl(154, 59%, 51%);
+
+ }
+
+input[type=submit]:hover{
+    background-color: hsla(154, 59%, 51%, 0.7);
+    cursor:pointer;
+ }
+ input:focus{
+    outline-color: hsl(248, 32%, 49%);
+ }
+ .terms{
+    font-size: 12px;
+    color: hsl(246, 25%, 77%);
+ }
+.terms span a {color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    
+
+}
+
+@media (max-width:700px){
+    .flex-container{
+        display: block;
+    }
+    .s1{
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px 50px 0px;
+    }
+    .heading h1{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .s2{
+        width: 100%;
+        padding: 0;
+    }
+    .form-banner, form{
+        width: 100%;
+    }
+}
+ 
+    /* background-color: hsl(248, 32%, 49%);
+        border-radius: 5px;
+        padding: 10px;    
+    
+    }
+.form{background-color: white;
+      border-radius:5px;
+    } */  
